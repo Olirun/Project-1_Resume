@@ -31,7 +31,7 @@ body
 .head:hover
 {
     background: #283054;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
     color: rgb(206, 52, 52);
     font-family: Verdana;
 }
@@ -155,7 +155,7 @@ h2:hover{
 .hoby:hover
 {
     background: #283054;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
     color: rgb(240, 20, 20);
     font-family: Verdana;
 
@@ -216,7 +216,7 @@ h2:hover{
 .work:hover
 {
     background: #283054;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
     color: rgb(177, 24, 24);
     font-family: Verdana;  
 }
@@ -316,7 +316,7 @@ width: 200px;
 .contact .btn:hover
 {
     background: red;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
 }
 
 

@@ -1,0 +1,323 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+body
+{
+    background: #283054;
+}
+.container
+{
+    display: block;
+    width: 850px;
+    margin: auto;
+    font-family: 'Poppins'; 
+    color: white;
+}
+
+
+/* Head section  */
+
+.head
+{
+    
+    background: rgb(172, 180, 247);
+    display: flex;
+    border-radius: 30px;
+    /* height: 200px; */
+    color: whitesmoke;
+    font-size: 17.5px;
+
+}
+.head:hover
+{
+    background: #283054;
+    text-transform: uppercase;
+    color: rgb(206, 52, 52);
+    font-family: Verdana;
+}
+.head .left img
+{
+    border-radius: 20px;
+    height: 100%;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+.head .right
+{
+    margin-left: 30px;
+}
+
+h2{
+    width: 100%;
+}
+
+h2:hover{
+    color: red;
+}
+
+
+
+/* End of Head section  */
+
+
+
+
+
+
+/* Body section */
+
+
+
+
+/* Социальные сети*/
+
+.social
+{
+    background-color: rgb(172, 180, 247);;
+    border-radius: 30px;
+    height: 200px; 
+    margin-top: 20px; 
+    display: block;
+    position: relative;
+}
+
+.social:hover
+{
+    background: #283054;
+    text-transform: uppercase;
+    color: red;
+}
+
+
+.social .socialdesc
+{
+    position: absolute;
+    left: 285px;
+    top: 1px;
+  
+}
+
+.social .socialdesc h2
+{
+    margin-top: 7px;
+}
+
+.social .icon
+{
+    position: absolute;
+    left: 60px;
+    top: 90px;
+}
+
+
+.social p
+{
+  /* margin: auto;   */
+  padding: 10px 50px;
+  border-radius: 30px;
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+  background-color: #a687e9;
+  width: 100px;
+  display: inline;
+  margin-left: 60px;
+}
+
+.social p:hover
+{
+    background: rgb(110, 218, 200);
+    
+}
+
+.social p a
+{
+    text-decoration: none;
+    color: white;
+    font-size: bold;
+}
+.social p a:hover
+{
+    color: red;
+    
+}
+
+/* Конец раздела Социальные сети*/
+
+
+/* Мои хобби */
+.hoby
+{
+    background: rgb(172, 180, 247);
+    border-radius: 30px;
+    height: 200px; 
+    margin-top: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.hoby:hover
+{
+    background: #283054;
+    text-transform: uppercase;
+    color: rgb(240, 20, 20);
+    font-family: Verdana;
+
+}
+
+.hoby h2
+{
+    margin-left: 10px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.hoby ol
+{
+    list-style-type: none;
+    padding-left: 2px;
+
+    margin-top: -55px;
+    text-align: center;
+
+}
+
+.hoby ol li
+{ 
+    width: 100px;
+    height: 30px;
+    margin: 10px;
+    border-radius: 30px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+    background-color: #a687e9;
+    font-size: 20px;
+    padding: 10px 50px;
+  }
+
+  .hoby ol li:hover
+  {
+    background: rgb(110, 218, 200); 
+  }
+
+/*  Конец раздела Мои хобби */
+
+
+
+
+
+/*  Опыт работы */
+
+.work
+{
+    background: rgb(172, 180, 247);
+    border-radius: 30px;
+    height: 200px; 
+    margin: 0;
+    padding: 0;
+    position: relative;
+   
+}
+.work:hover
+{
+    background: #283054;
+    text-transform: uppercase;
+    color: rgb(177, 24, 24);
+    font-family: Verdana;  
+}
+
+.work h2
+{
+    text-align: center;
+}
+
+.work table
+{
+width: 800px;
+/* background: red; */
+position: absolute;
+left: 16px;
+
+}
+.work table tr th
+{
+width: 200px;
+}
+
+
+.work table td
+{
+    text-align: center;
+    background: rgb(135, 145, 233);
+}
+
+
+/*  End of Body section */
+
+
+
+/* Footer section */
+
+
+.contact
+{
+    /* background: #0d86cc; */
+    border-radius: 30px;
+    height: 400px; 
+    margin: 0;
+    padding: 0;
+    position: relative;
+    text-align: center;
+    /* display: inline-block; */
+    width: 850px;
+    margin-top: 20px;
+    /* box-sizing: border-box; */
+}
+
+.contact .nm 
+{
+    display: flex;
+    position: absolute;
+    left: 150px;
+}
+
+.contact .name
+{
+    /* background: rebeccapurple; */
+    width: 300px;
+    height: 100px;
+    text-align: left;
+}
+
+.contact .email
+{
+    /* background: rebeccapurple; */
+    width: 300px;
+    height: 100px;
+    text-align: left;
+    left: 340px;
+    position: absolute;
+}
+
+.contact .letter
+{
+    position: absolute;
+    top: 150px;
+    left: 200px;
+}
+
+.contact .btn
+{
+    width: 135px;
+    height: 50px;
+   
+    border-radius: 30px;
+    position: absolute;
+    top: 345px;
+    left: 320px;
+    box-shadow: 4px 4px 14px rgba(46, 196, 188, 0.25);
+    font-size: 20px;
+}
+.contact .btn:hover
+{
+    background: red;
+    text-transform: uppercase;
+}
+
+
+/* End of  Footer section */
